@@ -1,0 +1,34 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+       <tag>PRIMAVERA</tag>
+        <one-of>
+          <item> primavera </item>
+	        <item> en primavera </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VERANO</tag>
+        <one-of>
+          <item> verano </item>
+	        <item> en verano </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>OTOÑO</tag>
+        <one-of>
+          <item> otoño </item>
+	        <item> en otoño </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>INVIERNO</tag>
+        <one-of>
+          <item> invierno </item>
+	        <item> en invierno </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

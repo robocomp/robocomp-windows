@@ -1,0 +1,61 @@
+#
+# This property is used by the clients to connect to IceStorm.
+#
+#TopicManager.Proxy=IceStorm/TopicManager:tcp -h 192.168.0.90  -p 9999
+
+TopicManager.Proxy=IceStorm/TopicManager:tcp -h 192.168.0.89 -p 9999
+
+#
+# Network Tracing
+#
+# 0 = no network tracing
+# 1 = trace connection establishment and closure
+# 2 = like 1, but more detailed
+# 3 = like 2, but also trace data transfer
+#
+
+Ice.Trace.Network=0
+#Ice.Default.EncodingVersion=1.0
+Ice.MessageSizeMax=10240
+Ice.ThreadPool.Client.Size=10
+Ice.ThreadPool.Client.SizeMax=10
+Ice.ThreadPool.Server.Size=10
+Ice.ThreadPool.Server.SizeMax=10
+
+#Ice.Warn.Connections=3
+
+#
+# IceMX configuration.
+#
+#Ice.Admin.Endpoints=tcp -h localhost -p 10003
+##Ice.Admin.Endpoints=tcp -h localhost -p 10217
+
+Ice.Admin.InstanceName=publisher
+IceMX.Metrics.Debug.GroupBy=id
+IceMX.Metrics.ByParent.GroupBy=parent
+
+# Object adapter, estas dos propiedades siempre deben estar:
+Adapter.Endpoints=tcp -p 10007
+Adapter.AdapterId=WinKinectComp.Adapter
+
+# Endpoints for subscriptions
+MSKRGBDAdapter.Endpoints=tcp -p 10000
+MSKASRConfigAdapter.Endpoints=tcp -p 12493
+
+#BodyService.id=MSKBodyService
+RGBDService.id=MSKRGBDService
+#FaceService.id=MSKFaceService
+#ASRService.id=MSKASR
+
+#Topic names
+topicNameASR = MSKASREvent
+topicNameHand = MSKHandEvent
+topicNameBody = MSKBodyEvent
+topicNameFace = MSKFaceEvent
+##topicNameRGBD = MSKRGBD
+
+#Confidence level for ASR
+confidenceLevel = 0,10
+
+# Kinect RGB resolution (HIGH = 1280x960, LOW = 640x480)
+RGBResolution=HIGH 

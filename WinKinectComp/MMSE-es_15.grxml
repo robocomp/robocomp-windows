@@ -1,0 +1,36 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>BOLIGRAFO</tag>
+        <one-of>
+          <item> bolígrafo </item>
+	  <item> un bolí­grafo </item>
+	  <item> es un bolÃ­grafo</item>
+	  <item> boli </item>
+	  <item> un boli </item>
+	  <item> es un boli</item>
+        </one-of>
+      </item>
+      <item>
+       <tag>LAPIZ</tag>
+        <one-of>
+          <item> lapicero </item>
+	  <item> un lapicero </item>
+	  <item> es un lapicero</item>
+	  <item> lápiz </item>
+	  <item> un lápiz </item>
+	  <item> es un lápiz</item>
+        </one-of>
+      </item>
+      <item>
+       <tag>ROTULADOR</tag>
+        <one-of>
+          <item> rotulador </item>
+	  <item> un rotulador </item>
+	  <item> es un rotulador</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

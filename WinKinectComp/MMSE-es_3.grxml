@@ -1,0 +1,90 @@
+﻿<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>ENERO</tag>
+        <one-of>
+          <item> enero </item>
+	  <item> en enero </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>FEBRERO</tag>
+        <one-of>
+          <item> febrero </item>
+	  <item> en febrero </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>MARZO</tag>
+        <one-of>
+          <item> marzo </item>
+	  <item> en marzo </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ABRIL</tag>
+        <one-of>
+          <item> abril </item>
+	  <item> en abril </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>MAYO</tag>
+        <one-of>
+          <item> mayo </item>
+	  <item> en mayo </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>JUNIO</tag>
+        <one-of>
+          <item> junio </item>
+	  <item> en junio </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>JULIO</tag>
+        <one-of>
+          <item> julio </item>
+	  <item> en julio </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>AGOSTO</tag>
+        <one-of>
+          <item> agosto </item>
+	  <item> en agosto </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SEPTIEMBRE</tag>
+        <one-of>
+          <item> septiembre </item>
+	  <item> en septiembre </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>OCTUBRE</tag>
+        <one-of>
+          <item> octubre </item>
+	  <item> en octubre </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>NOVIEMBRE</tag>
+        <one-of>
+          <item> noviembre </item>
+	  <item> en noviembre </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DICIEMBRE</tag>
+        <one-of>
+          <item> diciembre </item>
+	  <item> en diciembre </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

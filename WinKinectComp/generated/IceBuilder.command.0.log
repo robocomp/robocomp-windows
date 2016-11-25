@@ -1,0 +1,14 @@
+Ice Home: C:\Program Files (x86)\ZeroC\Ice-3.6.2\
+Ice Tools Path: C:\Program Files (x86)\ZeroC\Ice-3.6.2\\bin
+Output Dir: C:\robocomp\components\robocomp-windows\WinKinectComp\generated
+Header Output Dir:
+Allow Ice Prefix: false
+Underscore: false
+Checksum: false
+Include Directories: C:\Program Files (x86)\ZeroC\Ice-3.6.2\\slice
+%(IceBuilderIncludeDirectories)
+Additional Options:
+DLL Export:
+Base Directory For Generated Include:
+Header Ext: h
+Source Ext: cpp

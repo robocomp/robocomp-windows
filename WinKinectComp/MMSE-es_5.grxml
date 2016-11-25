@@ -1,0 +1,573 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+ <rule id="rootRule">
+    <one-of>
+     <item>
+     <tag>1940</tag>
+     <one-of>
+      <item>mil novecientos cuarenta </item>
+      <item>en mil novecientos cuarenta </item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1941</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y uno</item>
+      <item>en mil novecientos cuarenta y uno</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1942</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y dos</item>
+      <item>en mil novecientos cuarenta y dos</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1943</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y tres</item>
+      <item>en mil novecientos cuarenta y tres</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1944</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y cuatro</item>
+      <item>en mil novecientos cuarenta y cuatro</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1945</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y cinco</item>
+      <item>en mil novecientos cuarenta y cinco</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1946</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y seis</item>
+      <item>en mil novecientos cuarenta y seis</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1947</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y siete</item>
+      <item>en mil novecientos cuarenta y siete</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1948</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y ocho</item>
+      <item>en mil novecientos cuarenta y ocho</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1949</tag>
+     <one-of>
+      <item>mil novecientos cuarenta y nueve</item>
+      <item>en mil novecientos cuarenta y nueve</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1950</tag>
+     <one-of>
+      <item>mil novecientos cincuenta </item>
+      <item>en mil novecientos cincuenta </item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1951</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y uno</item>
+      <item>en mil novecientos cincuenta y uno</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1952</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y dos</item>
+      <item>en mil novecientos cincuenta y dos</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1953</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y tres</item>
+      <item>en mil novecientos cincuenta y tres</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1954</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y cuatro</item>
+      <item>en mil novecientos cincuenta y cuatro</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1955</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y cinco</item>
+      <item>en mil novecientos cincuenta y cinco</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1956</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y seis</item>
+      <item>en mil novecientos cincuenta y seis</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1957</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y siete</item>
+      <item>en mil novecientos cincuenta y siete</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1958</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y ocho</item>
+      <item>en mil novecientos cincuenta y ocho</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1959</tag>
+     <one-of>
+      <item>mil novecientos cincuenta y nueve</item>
+      <item>en mil novecientos cincuenta y nueve</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1960</tag>
+     <one-of>
+      <item>mil novecientos sesenta </item>
+      <item>en mil novecientos sesenta </item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1961</tag>
+     <one-of>
+      <item>mil novecientos sesenta y uno</item>
+      <item>en mil novecientos sesenta y uno</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1962</tag>
+     <one-of>
+      <item>mil novecientos sesenta y dos</item>
+      <item>en mil novecientos sesenta y dos</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1963</tag>
+     <one-of>
+      <item>mil novecientos sesenta y tres</item>
+      <item>en mil novecientos sesenta y tres</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1964</tag>
+     <one-of>
+      <item>mil novecientos sesenta y cuatro</item>
+      <item>en mil novecientos sesenta y cuatro</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1965</tag>
+     <one-of>
+      <item>mil novecientos sesenta y cinco</item>
+      <item>en mil novecientos sesenta y cinco</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1966</tag>
+     <one-of>
+      <item>mil novecientos sesenta y seis</item>
+      <item>en mil novecientos sesenta y seis</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1967</tag>
+     <one-of>
+      <item>mil novecientos sesenta y siete</item>
+      <item>en mil novecientos sesenta y siete</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1968</tag>
+     <one-of>
+      <item>mil novecientos sesenta y ocho</item>
+      <item>en mil novecientos sesenta y ocho</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1969</tag>
+     <one-of>
+      <item>mil novecientos sesenta y nueve</item>
+      <item>en mil novecientos sesenta y nueve</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1970</tag>
+     <one-of>
+      <item>mil novecientos setenta </item>
+      <item>en mil novecientos setenta </item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1971</tag>
+     <one-of>
+      <item>mil novecientos setenta y uno</item>
+      <item>en mil novecientos setenta y uno</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1972</tag>
+     <one-of>
+      <item>mil novecientos setenta y dos</item>
+      <item>en mil novecientos setenta y dos</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1973</tag>
+     <one-of>
+      <item>mil novecientos setenta y tres</item>
+      <item>en mil novecientos setenta y tres</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1974</tag>
+     <one-of>
+      <item>mil novecientos setenta y cuatro</item>
+      <item>en mil novecientos setenta y cuatro</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1975</tag>
+     <one-of>
+      <item>mil novecientos setenta y cinco</item>
+      <item>en mil novecientos setenta y cinco</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1976</tag>
+     <one-of>
+      <item>mil novecientos setenta y seis</item>
+      <item>en mil novecientos setenta y seis</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1977</tag>
+     <one-of>
+      <item>mil novecientos setenta y siete</item>
+      <item>en mil novecientos setenta y siete</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1978</tag>
+     <one-of>
+      <item>mil novecientos setenta y ocho</item>
+      <item>en mil novecientos setenta y ocho</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1979</tag>
+     <one-of>
+      <item>mil novecientos setenta y nueve</item>
+      <item>en mil novecientos setenta y nueve</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1980</tag>
+     <one-of>
+      <item>mil novecientos ochenta </item>
+      <item>en mil novecientos ochenta </item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1981</tag>
+     <one-of>
+      <item>mil novecientos ochenta y uno</item>
+      <item>en mil novecientos ochenta y uno</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1982</tag>
+     <one-of>
+      <item>mil novecientos ochenta y dos</item>
+      <item>en mil novecientos ochenta y dos</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1983</tag>
+     <one-of>
+      <item>mil novecientos ochenta y tres</item>
+      <item>en mil novecientos ochenta y tres</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1984</tag>
+     <one-of>
+      <item>mil novecientos ochenta y cuatro</item>
+      <item>en mil novecientos ochenta y cuatro</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1985</tag>
+     <one-of>
+      <item>mil novecientos ochenta y cinco</item>
+      <item>en mil novecientos ochenta y cinco</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1986</tag>
+     <one-of>
+      <item>mil novecientos ochenta y seis</item>
+      <item>en mil novecientos ochenta y seis</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1987</tag>
+     <one-of>
+      <item>mil novecientos ochenta y siete</item>
+      <item>en mil novecientos ochenta y siete</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1988</tag>
+     <one-of>
+      <item>mil novecientos ochenta y ocho</item>
+      <item>en mil novecientos ochenta y ocho</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1989</tag>
+     <one-of>
+      <item>mil novecientos ochenta y nueve</item>
+      <item>en mil novecientos ochenta y nueve</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1990</tag>
+     <one-of>
+      <item>mil novecientos noventa </item>
+      <item>en mil novecientos noventa </item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1991</tag>
+     <one-of>
+      <item>mil novecientos noventa y uno</item>
+      <item>en mil novecientos noventa y uno</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1992</tag>
+     <one-of>
+      <item>mil novecientos noventa y dos</item>
+      <item>en mil novecientos noventa y dos</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1993</tag>
+     <one-of>
+      <item>mil novecientos noventa y tres</item>
+      <item>en mil novecientos noventa y tres</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1994</tag>
+     <one-of>
+      <item>mil novecientos noventa y cuatro</item>
+      <item>en mil novecientos noventa y cuatro</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1995</tag>
+     <one-of>
+      <item>mil novecientos noventa y cinco</item>
+      <item>en mil novecientos noventa y cinco</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1996</tag>
+     <one-of>
+      <item>mil novecientos noventa y seis</item>
+      <item>en mil novecientos noventa y seis</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1997</tag>
+     <one-of>
+      <item>mil novecientos noventa y siete</item>
+      <item>en mil novecientos noventa y siete</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1998</tag>
+     <one-of>
+      <item>mil novecientos noventa y ocho</item>
+      <item>en mil novecientos noventa y ocho</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>1999</tag>
+     <one-of>
+      <item>mil novecientos noventa y nueve</item>
+      <item>en mil novecientos noventa y nueve</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2000</tag>
+     <one-of>
+      <item>dos mil </item>
+      <item>en dos mil </item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2001</tag>
+     <one-of>
+      <item>dos mil uno</item>
+      <item>en dos mil uno</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2002</tag>
+     <one-of>
+      <item>dos mil dos</item>
+      <item>en dos mil dos</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2003</tag>
+     <one-of>
+      <item>dos mil tres</item>
+      <item>en dos mil tres</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2004</tag>
+     <one-of>
+      <item>dos mil cuatro</item>
+      <item>en dos mil cuatro</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2005</tag>
+     <one-of>
+      <item>dos mil cinco</item>
+      <item>en dos mil cinco</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2006</tag>
+     <one-of>
+      <item>dos mil seis</item>
+      <item>en dos mil seis</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2007</tag>
+     <one-of>
+      <item>dos mil siete</item>
+      <item>en dos mil siete</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2008</tag>
+     <one-of>
+      <item>dos mil ocho</item>
+      <item>en dos mil ocho</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2009</tag>
+     <one-of>
+      <item>dos mil nueve</item>
+      <item>en dos mil nueve</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2010</tag>
+     <one-of>
+      <item>dos mil diez</item>
+      <item>en dos mil diez</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2011</tag>
+     <one-of>
+      <item>dos mil once</item>
+      <item>en dos mil once</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2012</tag>
+     <one-of>
+      <item>dos mil doce</item>
+      <item>en dos mil doce</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2013</tag>
+     <one-of>
+      <item>dos mil trece</item>
+      <item>en dos mil trece</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2014</tag>
+     <one-of>
+      <item>dos mil catorce</item>
+      <item>en dos mil catorce</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2015</tag>
+     <one-of>
+      <item>dos mil quince</item>
+      <item>en dos mil quince</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2016</tag>
+     <one-of>
+      <item>dos mil dieciseis</item>
+      <item>en dos mil dieciseis</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2017</tag>
+     <one-of>
+      <item>dos mil diecisiete</item>
+      <item>en dos mil diecisiete</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2018</tag>
+     <one-of>
+      <item>dos mil dieciocho</item>
+      <item>en dos mil dieciocho</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2019</tag>
+     <one-of>
+      <item>dos mil diecinueve</item>
+      <item>en dos mil diecinueve</item>
+     </one-of>
+    </item>
+     <item>
+     <tag>2020</tag>
+     <one-of>
+      <item>dos mil veinte</item>
+      <item>en dos mil veinte</item>
+     </one-of>
+    </item>
+    </one-of>
+   </rule>
+</grammar>

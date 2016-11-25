@@ -1,0 +1,18 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>SI</tag>
+        <one-of>
+          <item> si </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>NO</tag>
+        <one-of>
+          <item> no </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

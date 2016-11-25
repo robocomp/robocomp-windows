@@ -1,0 +1,97 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>CASA</tag>
+        <one-of>
+          <item> casa </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ZAPATO</tag>
+        <one-of>
+          <item> zapato </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>PAPEL</tag>
+        <one-of>
+          <item> papel </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CASA ZAPATO PAPEL</tag>
+        <one-of>
+          <item> casa zapato papel </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ZAPATO CASA PAPEL</tag>
+        <one-of>
+          <item> zapato casa papel </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ZAPATO PAPEL CASA</tag>
+        <one-of>
+          <item> zapato papel casa </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CASA PAPEL ZAPATO</tag>
+        <one-of>
+          <item> casa papel zapato</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>PAPEL CASA ZAPATO</tag>
+        <one-of>
+          <item> papel casa zapato</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>PAPEl ZAPATO CASA</tag>
+        <one-of>
+          <item> papel zapato casa</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ZAPATO PAPEL</tag>
+        <one-of>
+          <item> zapato papel </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CASA PAPEL</tag>
+        <one-of>
+          <item> casa papel </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>PAPEL CASA</tag>
+        <one-of>
+          <item> papel casa </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>PAPEL ZAPATO</tag>
+        <one-of>
+          <item> papel zapato</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CASA ZAPATO</tag>
+        <one-of>
+          <item> casa zapato</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ZAPATO CASA</tag>
+        <one-of>
+          <item>zapato casa</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
+

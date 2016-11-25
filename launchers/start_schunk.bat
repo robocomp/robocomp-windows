@@ -1,0 +1,1 @@
+start "Schunk" "C:\robocomp\components\robocomp-windows\SchunkComp\Release\schunk.exe" "--Ice.Config=C:\robocomp\components\robocomp-windows\SchunkComp\Release\schunk.conf"

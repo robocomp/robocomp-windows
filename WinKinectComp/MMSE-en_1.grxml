@@ -1,0 +1,62 @@
+﻿<grammar version="1.0" xml:lang="en" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>MONDAY</tag>
+        <one-of>
+          <item> monday </item>
+          <item> it is monday</item>
+          <item> today is monday </item>
+        </one-of>
+      </item>
+      <item>
+      <tag>TUESDAY</tag>
+      <one-of>
+        <item> tuesday </item>
+        <item> it is tuesday </item>
+        <item> today is tuesday </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>WEDNESDAY</tag>
+      <one-of>
+        <item> wednesday </item>
+        <item> it is wednesday </item>
+        <item> today is wednesday </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>THURSDAY</tag>
+      <one-of>
+        <item> thursday </item>
+        <item> it is thursday </item>
+        <item> today is thursday </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>FRIDAY</tag>
+      <one-of>
+        <item> friday </item>
+        <item> it is friday </item>
+        <item> today is friday </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>SATURDAY</tag>
+      <one-of>
+        <item> saturday </item>
+        <item> it is saturday </item>
+        <item> today is saturday </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>SUNDAY</tag>
+      <one-of>
+        <item> sunday </item>
+        <item> it is sunday </item>
+        <item> today is sunday </item>
+      </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

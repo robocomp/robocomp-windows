@@ -1,0 +1,22 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>VILANOVA</tag>
+        <one-of>
+          <item> vilanova </item>
+	        <item> en vilanova </item>
+	        <item> vilanova i la geltrú</item>
+	       <item> en vilanova i la geltrú</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BARCELONA</tag>
+        <one-of>
+          <item> barcelona </item>
+	       <item> en barcelona </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

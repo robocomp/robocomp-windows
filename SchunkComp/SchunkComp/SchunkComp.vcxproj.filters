@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="generated\JointMotor.cpp" />
+    <ClCompile Include="JointMotorI.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Servo.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Worker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\schunkcomp\schunkcomp\m5apiw32.h" />
+    <ClInclude Include="generated\JointMotor.h" />
+    <ClInclude Include="JointMotorI.h" />
+    <ClInclude Include="Servo.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Worker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Slice Files">
+      <UniqueIdentifier>{c1ea1656-1f0a-46b4-b347-71a0249e5a5b}</UniqueIdentifier>
+      <Extensions>ice</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e0355eb0-7490-4887-b2f8-8c059cd192c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ea512834-0c06-443f-8f40-5d3f7a789ca3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <IceBuilder Include="..\..\schunkcomp\schunkcomp\JointMotor.ice" />
+  </ItemGroup>
+</Project>

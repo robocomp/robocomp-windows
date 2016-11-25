@@ -1,0 +1,29 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>PLANTA BAJA</tag>
+        <one-of>
+          <item> planta baja del hospital sant antoni abat </item>
+          <item> planta baja </item>
+          <item> planta cero</item>
+          <item> en la planta cero del hospital sant antoni abat </item>
+          <item> en la planta cero </item>
+          <item> la planta cero del hospital sant antoni abat </item>
+          <item> la planta cero</item>
+          <item> en la planta baja del hospital sant antoni abat </item>
+          <item> en la planta baja</item>
+          <item> la planta baja del hospital sant antoni abat </item>
+          <item> la planta baja</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>HOSPITAL DE DIA</tag>
+        <one-of>
+          <item> hospital de dia</item>
+          <item> en el hospital de dia</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

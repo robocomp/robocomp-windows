@@ -1,0 +1,195 @@
+﻿<grammar version="1.0" xml:lang="en" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>ONE</tag>
+        <one-of>
+          <item> one </item>
+          <item> first </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWO</tag>
+        <one-of>
+          <item> two </item>
+          <item> second </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>THREE</tag>
+        <one-of>
+          <item> three </item>
+          <item> third </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>FOUR</tag>
+        <one-of>
+          <item> four </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>FIVE</tag>
+        <one-of>
+          <item> five </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SIX</tag>
+        <one-of>
+          <item> six </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SEVEN</tag>
+        <one-of>
+          <item> seven </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>EIGHT</tag>
+        <one-of>
+          <item> eight </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>NINE</tag>
+        <one-of>
+          <item> nine </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TEN</tag>
+        <one-of>
+          <item> ten </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ELEVEN</tag>
+        <one-of>
+          <item> eleven </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWELVE</tag>
+        <one-of>
+          <item> twelve </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>THIRTEEN</tag>
+        <one-of>
+          <item> thirteen </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>FOURTEEN</tag>
+        <one-of>
+          <item> fourteen </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>FIFTEEN</tag>
+        <one-of>
+          <item> fifteen </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SIXTEEN</tag>
+        <one-of>
+          <item> sixteen </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SEVENTEEN</tag>
+        <one-of>
+          <item> seventeen </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>EIGHTEEN</tag>
+        <one-of>
+          <item> eighteen </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>NINETEEN</tag>
+        <one-of>
+          <item> nineteen </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY</tag>
+        <one-of>
+          <item> twenty </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-ONE</tag>
+        <one-of>
+          <item> twenty one </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-TWO</tag>
+        <one-of>
+          <item> twenty two </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-THREE</tag>
+        <one-of>
+          <item> twenty three </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-FOUR</tag>
+        <one-of>
+          <item> twenty four </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-FIVE</tag>
+        <one-of>
+          <item> twenty five </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-SIX</tag>
+        <one-of>
+          <item> twenty six </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-SEVEN</tag>
+        <one-of>
+          <item> twenty seven </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-EIGHT</tag>
+        <one-of>
+          <item> twenty eight </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TWENTY-NINE</tag>
+        <one-of>
+          <item> twenty nine </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>THIRTY</tag>
+        <one-of>
+          <item> thirty </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>THIRTY-ONE</tag>
+        <one-of>
+          <item> thirty one </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Slice Files">
+      <UniqueIdentifier>{0879a387-c422-4cb9-8438-73d267319f61}</UniqueIdentifier>
+      <Extensions>ice</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinKinect.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="WinKinectCS.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Source1.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="generated\MSK.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="KinectAudioStream.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MSKASRConfigInterface.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MSKRGBDInterface.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinKinect.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="WASAPICapture.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="WinKinectCS.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="generated\MSK.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="KinectAudioStream.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MSKASRConfigInterface.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MSKRGBDInterface.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\SpeechBasics-D2D.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Barthel-en.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="Barthel-es.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-en_1.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-en_2.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-en_3.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_1.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_2.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_3.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_4.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_5.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_6.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_7.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_8.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_9.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_10.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_11.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_12.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_13.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_14.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_15.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_16.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MMSE-es_17.grxml">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="MSK.ice">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+  </ItemGroup>
+</Project>

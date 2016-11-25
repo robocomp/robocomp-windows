@@ -1,0 +1,50 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>UNO</tag>
+        <one-of>
+          <item> one </item>
+          <item> first </item>
+          <item> first option </item>
+          <item> option one </item>
+          <item> the first </item>
+          <item> the first one </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DOS</tag>
+        <one-of>
+          <item> two </item>
+          <item> second </item>
+          <item> second option </item>
+          <item> option two </item>
+          <item> the second </item>
+          <item> the second one </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TRES</tag>
+        <one-of>
+          <item> three </item>
+          <item> third </item>
+          <item> third option </item>
+          <item> option three </item>
+          <item> the third </item>
+          <item> the third one </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CUATRO</tag>
+        <one-of>
+          <item> four </item>
+          <item> fourth </item>
+          <item> fourth option </item>
+          <item> option four </item>
+          <item> the fourth </item>
+          <item> the fourth one </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

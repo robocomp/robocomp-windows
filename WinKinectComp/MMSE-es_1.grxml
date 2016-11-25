@@ -1,0 +1,76 @@
+﻿<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+       <item>
+        <tag>LUNES</tag>
+        <one-of>
+          <item> lunes </item>
+          <item> es lunes </item>
+          <item> hoy es lunes </item>
+	  <item> el lunes </item>
+	  <item> en lunes </item>
+        </one-of>
+      </item>
+      <item>
+      <tag>MARTES</tag>
+      <one-of>
+        <item> martes </item>
+        <item> es martes </item>
+        <item> hoy es martes </item>
+	<item> el martes </item>
+ 	<item> en martes </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>MIERCOLES</tag>
+      <one-of>
+        <item> miércoles </item>
+        <item> es miércoles </item>
+        <item> hoy es miércoles </item>
+	<item> el miercoles </item>
+	<item> en miercoles </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>JUEVES</tag>
+      <one-of>
+        <item> jueves </item>
+        <item> es jueves </item>
+        <item> hoy es jueves </item>
+	<item> el jueves </item>
+ 	<item> en jueves </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>VIERNES</tag>
+      <one-of>
+        <item> viernes </item>
+        <item> es viernes </item>
+        <item> hoy es viernes </item>
+	<item> el viernes </item>
+ 	<item> en viernes </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>SABADO</tag>
+      <one-of>
+        <item> sábado </item>
+        <item> es sábado </item>
+        <item> hoy es sábado </item>
+	<item> el sábado </item>
+	<item> en sábado </item>
+      </one-of>
+      </item>
+      <item>
+      <tag>DOMINGO</tag>
+      <one-of>
+        <item> domingo </item>
+        <item> es domingo </item>
+        <item> hoy es domingo </item>
+	<item> el domingo </item>
+ 	<item> en domingo </item>
+      </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

@@ -1,0 +1,66 @@
+﻿<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>UNO</tag>
+        <one-of>
+          <item> uno </item>
+          <item> opción uno </item>
+          <item> la uno </item>
+          <item> el uno </item>
+          <item> la primera </item>
+          <item> el primero </item>
+          <item> primera </item>
+          <item> primero </item>
+          <item> la opción uno </item>
+          <item> la primera opción </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DOS</tag>
+        <one-of>
+          <item> dos </item>
+          <item> opción dos </item>
+          <item> la dos </item>
+          <item> el dos </item>
+          <item> la segunda </item>
+          <item> el segundo </item>
+          <item> segundo </item>
+          <item> segunda </item>
+          <item> la opción dos </item>
+          <item> la segunda opción </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TRES</tag>
+        <one-of>
+          <item> tres </item>
+          <item> opción tres </item>
+          <item> la tres </item>
+          <item> el tres </item>
+          <item> la tercera </item>
+          <item> el tercero </item>
+          <item> tercero </item>
+          <item> tercera </item>
+          <item> la opción tres </item>
+          <item> la tercera opción </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CUATRO</tag>
+        <one-of>
+          <item> cuatro </item>
+          <item> opción cuatro </item>
+          <item> la cuatro </item>
+          <item> el cuatro </item>
+          <item> la cuarta </item>
+          <item> el cuarto </item>
+          <item> cuarto </item>
+          <item> cuarta </item>
+          <item> la opción cuatro </item>
+          <item> la cuarta opción </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

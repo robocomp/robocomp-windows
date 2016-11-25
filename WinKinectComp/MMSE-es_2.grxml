@@ -1,0 +1,256 @@
+﻿<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>UNO</tag>
+        <one-of>
+          <item> uno </item>
+          <item> primero </item>
+	  <item> el uno </item>
+          <item> en uno </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DOS</tag>
+        <one-of>
+          <item> dos </item>
+	  <item> el dos </item>
+          <item> en dos </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TRES</tag>
+        <one-of>
+          <item> tres </item>
+	  <item> el tres </item>
+          <item> en tres </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CUATRO</tag>
+        <one-of>
+          <item> cuatro </item>
+	  <item> el cuatro </item>
+          <item> en cuatro </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CINCO</tag>
+        <one-of>
+          <item> cinco </item>
+	  <item> el cinco </item>
+          <item> en cinco </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SEIS</tag>
+        <one-of>
+          <item> seis </item>
+	  <item> el seis </item>
+          <item> en seis </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SIETE</tag>
+        <one-of>
+          <item> siete </item>
+	  <item> el siete </item>
+          <item> en siete </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>OCHO</tag>
+        <one-of>
+          <item> ocho </item>
+	  <item> el ocho </item>
+          <item> en ocho </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>NUEVE</tag>
+        <one-of>
+          <item> nueve </item>
+	  <item> el nueve </item>
+          <item> en nueve </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DIEZ</tag>
+        <one-of>
+          <item> diez </item>
+	  <item> el diez </item>
+          <item> en diez </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>ONCE</tag>
+        <one-of>
+          <item> once </item>
+	  <item> el once </item>
+          <item> en once </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DOCE</tag>
+        <one-of>
+          <item> doce </item>
+	  <item> el doce </item>
+          <item> en doce </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TRECE</tag>
+        <one-of>
+          <item> trece </item>
+	  <item> el trece </item>
+          <item> en trece </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CATORCE</tag>
+        <one-of>
+          <item> catorce </item>
+	  <item> el catorce </item>
+          <item> en catorce </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>QUINCE</tag>
+        <one-of>
+          <item> quince </item>
+	  <item> el quince </item>
+          <item> en quince </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DIECISEIS</tag>
+        <one-of>
+          <item> dieciséis </item>
+	  <item> el dieciséis </item>
+          <item> en dieciséis </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DIECISIETE</tag>
+        <one-of>
+          <item> diecisiete </item>
+	  <item> el diecisiete </item>
+          <item> en diecisiete </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DIECIOCHO</tag>
+        <one-of>
+          <item> dieciocho </item>
+	  <item> el dieciocho </item>
+          <item> en dieciocho </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>DIECINUEVE</tag>
+        <one-of>
+          <item> diecinueve </item>
+	  <item> el diecinueve </item>
+          <item> en diecinueve </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTE</tag>
+        <one-of>
+          <item> veinte </item>
+	  <item> el veinte </item>
+          <item> en veinte </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTIUNO</tag>
+        <one-of>
+          <item> veintiuno </item>
+	  <item> el veintiuno </item>
+          <item> en veintiuno </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTIDOS</tag>
+        <one-of>
+          <item> veintidós </item>
+	  <item> el veintidós </item>
+          <item> en veintidós </item>
+          <item> ventidó </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTITRES</tag>
+        <one-of>
+          <item> veintitrés </item>
+	  <item> el veintitrés </item>
+          <item> en veintitrés </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTICUATRO</tag>
+        <one-of>
+          <item> veinticuatro </item>
+	  <item> el veinticuatro </item>
+          <item> en veinticuatro </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTICINCO</tag>
+        <one-of>
+          <item> veinticinco </item>
+	  <item> el veinticinco </item>
+          <item> en veinticinco </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTISEIS</tag>
+        <one-of>
+          <item> veintiséis </item>
+	  <item> el veintiséis </item>
+          <item> en veintiséis </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTISIETE</tag>
+        <one-of>
+          <item> veintisiete </item>
+	  <item> el veintisiete </item>
+          <item> en veintisiete </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTIOCHO</tag>
+        <one-of>
+          <item> veintiocho </item>
+	  <item> el veintiocho </item>
+          <item> en veintiocho </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>VEINTINUEVE</tag>
+        <one-of>
+          <item> veintinueve </item>
+	  <item> el veintinueve </item>
+          <item> en veintinueve </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TREINTA</tag>
+        <one-of>
+          <item> treinta </item>
+	  <item> el treinta </item>
+          <item> en treinta </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TREINTAYUNO</tag>
+        <one-of>
+          <item> treinta y uno </item>
+	  <item> el treinta y uno </item>
+          <item> en treinta y uno </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

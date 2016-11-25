@@ -1,0 +1,42 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>SANT ANTONI ABAT</tag>
+        <one-of>
+          <item> en el sant antoni abat </item>
+          <item> en el hospital sant antoni abat </item>
+          <item> el sant antoni abat </item>
+          <item> sant antoni abat</item>
+        </one-of>
+      </item>
+      <item>
+      <tag>CONSORCI SANITARI DEL GARRAF</tag>
+      <one-of>
+          <item> en el consorci sanitari del garraf</item>
+          <item> el consorci sanitari del garraf</item>
+          <item> consorci sanitari del garraf</item>
+      </one-of>
+    </item>
+    <item>
+    <tag>AYUDA</tag>
+    <one-of>
+      <item> en Barcelona </item>
+      <item> en España</item>
+      <item> en Vilanova i la Gertrú</item>
+      <item> en Vilanova </item>
+      <item> en Cataluña</item>
+      <item> en la planta baja</item>
+      <item> en la planta cero</item>
+      <item> Barcelona </item>
+      <item> España</item>
+      <item> Vilanova i la Gertrú</item>
+      <item> Vilanova </item>
+      <item> Cataluña</item>
+      <item> planta baja</item>
+      <item> planta cero</item>
+    </one-of>
+    </item>
+    </one-of>
+  </rule>
+</grammar>

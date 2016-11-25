@@ -1,0 +1,17 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>RELOJ</tag>
+        <one-of>
+          <item> reloj </item>
+	        <item> un reloj </item>
+	  <item> es un reloj</item>
+	  <item> reloj de pulsera</item>
+	  <item> un reloj de pulsera</item>
+	  <item> es un reloj de pulsera</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

@@ -1,0 +1,1150 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar" >
+ <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>A</tag>
+        <one-of>
+          <item> a </item>
+          <item>la a</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>B</tag>
+        <one-of>
+          <item>be</item>
+          <item>la be</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>C</tag>
+        <one-of>
+          <item>ce</item>
+          <item>la c</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>D</tag>
+        <one-of>
+          <item>d</item>
+          <item>la d</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>E</tag>
+        <one-of>
+          <item>e</item>
+          <item>la e</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>F</tag>
+        <one-of>
+          <item>efe</item>
+          <item>la efe</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>G</tag>
+        <one-of>
+          <item>ge</item>
+          <item>la ge</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>H</tag>
+        <one-of>
+          <item>hache</item>
+          <item>la hache</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>I</tag>
+        <one-of>
+          <item>i</item>
+          <item>la i</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>J</tag>
+        <one-of>
+          <item>jota</item>
+          <item>la jota</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>K</tag>
+        <one-of>
+          <item>ca</item>
+          <item>la ca</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>L</tag>
+        <one-of>
+          <item>ele</item>
+          <item>la ele</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LL</tag>
+        <one-of>
+          <item>elle</item>
+          <item>la elle</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>M</tag>
+        <one-of>
+          <item>eme</item>
+          <item>la eme</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>N</tag>
+        <one-of>
+          <item>ene</item>
+          <item>la ene</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Ñ</tag>
+        <one-of>
+          <item>eñe</item>
+          <item>la eñe</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>O</tag>
+        <one-of>
+          <item>o</item>
+          <item>la o</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>P</tag>
+        <one-of>
+          <item>pe</item>
+          <item>la pe</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Q</tag>
+        <one-of>
+          <item>cu</item>
+          <item>la cu</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>R</tag>
+        <one-of>
+          <item>ere</item>
+          <item>la ere</item>
+          <item>erre</item>
+          <item>la erre</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>S</tag>
+        <one-of>
+          <item>ese</item>
+          <item>la ese</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>T</tag>
+        <one-of>
+          <item>te</item>
+          <item>la te</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>U</tag>
+        <one-of>
+          <item>u</item>
+          <item>la u</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>V</tag>
+        <one-of>
+          <item>uve</item>
+          <item>la uve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>W</tag>
+        <one-of>
+          <item>uve doble</item>
+          <item>la uve doble</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>X</tag>
+        <one-of>
+          <item>equis</item>
+          <item>la equis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Y</tag>
+        <one-of>
+          <item>y griega</item>
+          <item>la y griega</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>Z</tag>
+        <one-of>
+          <item>zeta</item>
+          <item>la zeta</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>0</tag>
+        <one-of>
+          <item>cero</item>
+          <item>son cero</item>
+          <item>es cero</item>
+          <item>me quedan cero</item>
+          <item>ninguna</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>1</tag>
+        <one-of>
+          <item>uno</item>
+          <item>son uno</item>
+          <item>es uno</item>
+          <item>me quedan uno</item>
+          <item>una</item>
+          <item>son una</item>
+          <item>es una</item>
+          <item>me queda una</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>2</tag>
+        <one-of>
+          <item>dos</item>
+          <item>son dos</item>
+          <item>es dos</item>
+          <item>me quedan dos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>3</tag>
+        <one-of>
+          <item>tres</item>
+          <item>son tres</item>
+          <item>es tres</item>
+          <item>me quedan tres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>4</tag>
+        <one-of>
+          <item>cuatro</item>
+          <item>son cuatro</item>
+          <item>es cuatro</item>
+          <item>me quedan cuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>5</tag>
+        <one-of>
+          <item>cinco</item>
+          <item>son cinco</item>
+          <item>es cinco</item>
+          <item>me quedan cinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>6</tag>
+        <one-of>
+          <item>seis</item>
+          <item>son seis</item>
+          <item>es seis</item>
+          <item>me quedan seis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>7</tag>
+        <one-of>
+          <item>siete</item>
+          <item>son siete</item>
+          <item>es siete</item>
+          <item>me quedan siete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>8</tag>
+        <one-of>
+          <item>ocho</item>
+          <item>son ocho</item>
+          <item>es ocho</item>
+          <item>me quedan ocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>9</tag>
+        <one-of>
+          <item>nueve</item>
+          <item>son nueve</item>
+          <item>es nueve</item>
+          <item>me quedan nueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>10</tag>
+        <one-of>
+          <item>diez</item>
+          <item>son diez</item>
+          <item>es diez</item>
+          <item>me quedan diez</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>11</tag>
+        <one-of>
+          <item>once</item>
+          <item>son once</item>
+          <item>es once</item>
+          <item>me quedan once</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>12</tag>
+        <one-of>
+          <item>doce</item>
+          <item>son doce</item>
+          <item>es doce</item>
+          <item>me quedan doce</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>13</tag>
+        <one-of>
+          <item>trece</item>
+          <item>son trece</item>
+          <item>es trece</item>
+          <item>me quedan trece</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>14</tag>
+        <one-of>
+          <item>catorce</item>
+          <item>son catorce</item>
+          <item>es catorce</item>
+          <item>me quedan catorce</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>15</tag>
+        <one-of>
+          <item>quince</item>
+          <item>son quince</item>
+          <item>es quince</item>
+          <item>me quedan quince</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>16</tag>
+        <one-of>
+          <item>dieciseis</item>
+          <item>son dieciseis</item>
+          <item>es dieciseis</item>
+          <item>me quedan dieciseis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>17</tag>
+        <one-of>
+          <item>diecisiete</item>
+          <item>son diecisiete</item>
+          <item>es diecisiete</item>
+          <item>me quedan diecisiete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>18</tag>
+        <one-of>
+          <item>dieciocho</item>
+          <item>son dieciocho</item>
+          <item>es dieciocho</item>
+          <item>me quedan dieciocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>19</tag>
+        <one-of>
+          <item>diecinueve</item>
+          <item>son diecinueve</item>
+          <item>es diecinueve</item>
+          <item>me quedan diecinueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>20</tag>
+        <one-of>
+          <item>veinte</item>
+          <item>son veinte</item>
+          <item>es veinte</item>
+          <item>me quedan veinte</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>21</tag>
+        <one-of>
+          <item>veintiuno</item>
+          <item>son veintiuno</item>
+          <item>es veintiuno</item>
+          <item>me quedan veintiuno</item>
+          <item>veintiuna</item>
+          <item>son veintiuna</item>
+          <item>es veintiuna</item>
+          <item>me quedan veintiuna</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>22</tag>
+        <one-of>
+          <item>veintidos</item>
+          <item>son veintidos</item>
+          <item>es veintidos</item>
+          <item>me quedan veintidos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>23</tag>
+        <one-of>
+          <item>veintitres</item>
+          <item>son veintitres</item>
+          <item>es veintitres</item>
+          <item>me quedan veintitres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>24</tag>
+        <one-of>
+          <item>veinticuatro</item>
+          <item>son veinticuatro</item>
+          <item>es veinticuatro</item>
+          <item>me quedan veinticuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>25</tag>
+        <one-of>
+          <item>veinticinco</item>
+          <item>son veinticinco</item>
+          <item>es veinticinco</item>
+          <item>me quedan veinticinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>26</tag>
+        <one-of>
+          <item>veintiseis</item>
+          <item>son veintiseis</item>
+          <item>es veintiseis</item>
+          <item>me quedan veintiseis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>27</tag>
+        <one-of>
+          <item>veintisiete</item>
+          <item>son veintisiete</item>
+          <item>es veintisiete</item>
+          <item>me quedan veintisiete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>28</tag>
+        <one-of>
+          <item>veintiocho</item>
+          <item>son veintiocho</item>
+          <item>es veintiocho</item>
+          <item>me quedan veintiocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>29</tag>
+        <one-of>
+          <item>veintinueve</item>
+          <item>son veintinueve</item>
+          <item>es veintinueve</item>
+          <item>me quedan veintinueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>30</tag>
+        <one-of>
+          <item>treinta</item>
+          <item>son treinta</item>
+          <item>es treinta</item>
+          <item>me quedan treinta</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>31</tag>
+        <one-of>
+          <item>treinta y uno</item>
+          <item>son treinta y uno</item>
+          <item>es treinta y uno</item>
+          <item>me quedan treinta y uno</item>
+          <item>treinta y una</item>
+          <item>son treinta y una</item>
+          <item>es treinta y una</item>
+          <item>me quedan treinta y una</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>32</tag>
+        <one-of>
+          <item>treinta y dos</item>
+          <item>son treinta y dos</item>
+          <item>es treinta y dos</item>
+          <item>me quedan treinta y dos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>33</tag>
+        <one-of>
+          <item>treinta y tres</item>
+          <item>son treinta y tres</item>
+          <item>es treinta y tres</item>
+          <item>me quedan treinta y tres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>34</tag>
+        <one-of>
+          <item>treinta y cuatro</item>
+          <item>son treinta y cuatro</item>
+          <item>es treinta y cuatro</item>
+          <item>me quedan treinta y cuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>35</tag>
+        <one-of>
+          <item>treinta y cinco</item>
+          <item>son treinta y cinco</item>
+          <item>es treinta y cinco</item>
+          <item>me quedan treinta y cinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>36</tag>
+        <one-of>
+          <item>treinta y seis</item>
+          <item>son treinta y seis</item>
+          <item>es treinta y seis</item>
+          <item>me quedan treinta y seis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>37</tag>
+        <one-of>
+          <item>treinta y siete</item>
+          <item>son treinta y siete</item>
+          <item>es treinta y siete</item>
+          <item>me quedan treinta y siete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>38</tag>
+        <one-of>
+          <item>treinta y ocho</item>
+          <item>son treinta y ocho</item>
+          <item>es treinta y ocho</item>
+          <item>me quedan treinta y ocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>39</tag>
+        <one-of>
+          <item>treinta y nueve</item>
+          <item>son treinta y nueve</item>
+          <item>es treinta y nueve</item>
+          <item>me quedan treinta y nueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>40</tag>
+        <one-of>
+          <item>cuarenta</item>
+          <item>son cuarenta</item>
+          <item>es cuarenta</item>
+          <item>me quedan cuarenta</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>41</tag>
+        <one-of>
+          <item>cuarenta y uno</item>
+          <item>son cuarenta y uno</item>
+          <item>es cuarenta y uno</item>
+          <item>me quedan cuarenta y uno</item>
+          <item>cuarenta y una</item>
+          <item>son cuarenta y una</item>
+          <item>es cuarenta y una</item>
+          <item>me quedan cuarenta y una</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>42</tag>
+        <one-of>
+          <item>cuarenta y dos</item>
+          <item>son cuarenta y dos</item>
+          <item>es cuarenta y dos</item>
+          <item>me quedan cuarenta y dos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>43</tag>
+        <one-of>
+          <item>cuarenta y tres</item>
+          <item>son cuarenta y tres</item>
+          <item>es cuarenta y tres</item>
+          <item>me quedan cuarenta y tres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>44</tag>
+        <one-of>
+          <item>cuarenta y cuatro</item>
+          <item>son cuarenta y cuatro</item>
+          <item>es cuarenta y cuatro</item>
+          <item>me quedan cuarenta y cuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>45</tag>
+        <one-of>
+          <item>cuarenta y cinco</item>
+          <item>son cuarenta y cinco</item>
+          <item>es cuarenta y cinco</item>
+          <item>me quedan cuarenta y cinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>46</tag>
+        <one-of>
+          <item>cuarenta y seis</item>
+          <item>son cuarenta y seis</item>
+          <item>es cuarenta y seis</item>
+          <item>me quedan cuarenta y seis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>47</tag>
+        <one-of>
+          <item>cuarenta y siete</item>
+          <item>son cuarenta y siete</item>
+          <item>es cuarenta y siete</item>
+          <item>me quedan cuarenta y siete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>48</tag>
+        <one-of>
+          <item>cuarenta y ocho</item>
+          <item>son cuarenta y ocho</item>
+          <item>es cuarenta y ocho</item>
+          <item>me quedan cuarenta y ocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>49</tag>
+        <one-of>
+          <item>cuarenta y nueve</item>
+          <item>son cuarenta y nueve</item>
+          <item>es cuarenta y nueve</item>
+          <item>me quedan cuarenta y nueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>50</tag>
+        <one-of>
+          <item>cincuenta</item>
+          <item>son cincuenta</item>
+          <item>es cincuenta</item>
+          <item>me quedan cincuenta</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>51</tag>
+        <one-of>
+          <item>cincuenta y uno</item>
+          <item>son cincuenta y uno</item>
+          <item>es cincuenta y uno</item>
+          <item>me quedan cincuenta y uno</item>
+          <item>cincuenta y una</item>
+          <item>son cincuenta y una</item>
+          <item>es cincuenta y una</item>
+          <item>me quedan cincuenta y una</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>52</tag>
+        <one-of>
+          <item>cincuenta y dos</item>
+          <item>son cincuenta y dos</item>
+          <item>es cincuenta y dos</item>
+          <item>me quedan cincuenta y dos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>53</tag>
+        <one-of>
+          <item>cincuenta y tres</item>
+          <item>son cincuenta y tres</item>
+          <item>es cincuenta y tres</item>
+          <item>me quedan cincuenta y tres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>54</tag>
+        <one-of>
+          <item>cincuenta y cuatro</item>
+          <item>son cincuenta y cuatro</item>
+          <item>es cincuenta y cuatro</item>
+          <item>me quedan cincuenta y cuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>55</tag>
+        <one-of>
+          <item>cincuenta y cinco</item>
+          <item>son cincuenta y cinco</item>
+          <item>es cincuenta y cinco</item>
+          <item>me quedan cincuenta y cinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>56</tag>
+        <one-of>
+          <item>cincuenta y seis</item>
+          <item>son cincuenta y seis</item>
+          <item>es cincuenta y seis</item>
+          <item>me quedan cincuenta y seis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>57</tag>
+        <one-of>
+          <item>cincuenta y siete</item>
+          <item>son cincuenta y siete</item>
+          <item>es cincuenta y siete</item>
+          <item>me quedan cincuenta y siete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>58</tag>
+        <one-of>
+          <item>cincuenta y ocho</item>
+          <item>son cincuenta y ocho</item>
+          <item>es cincuenta y ocho</item>
+          <item>me quedan cincuenta y ocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>59</tag>
+        <one-of>
+          <item>cincuenta y nueve</item>
+          <item>son cincuenta y nueve</item>
+          <item>es cincuenta y nueve</item>
+          <item>me quedan cincuenta y nueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>60</tag>
+        <one-of>
+          <item>sesenta</item>
+          <item>son sesenta</item>
+          <item>es sesenta</item>
+          <item>me quedan sesenta</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>61</tag>
+        <one-of>
+          <item>sesenta y uno</item>
+          <item>son sesenta y uno</item>
+          <item>es sesenta y uno</item>
+          <item>me quedan sesenta y uno</item>
+          <item>sesenta y una</item>
+          <item>son sesenta y una</item>
+          <item>es sesenta y una</item>
+          <item>me quedan sesenta y una</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>62</tag>
+        <one-of>
+          <item>sesenta y dos</item>
+          <item>son sesenta y dos</item>
+          <item>es sesenta y dos</item>
+          <item>me quedan sesenta y dos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>63</tag>
+        <one-of>
+          <item>sesenta y tres</item>
+          <item>son sesenta y tres</item>
+          <item>es sesenta y tres</item>
+          <item>me quedan sesenta y tres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>64</tag>
+        <one-of>
+          <item>sesenta y cuatro</item>
+          <item>son sesenta y cuatro</item>
+          <item>es sesenta y cuatro</item>
+          <item>me quedan sesenta y cuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>65</tag>
+        <one-of>
+          <item>sesenta y cinco</item>
+          <item>son sesenta y cinco</item>
+          <item>es sesenta y cinco</item>
+          <item>me quedan sesenta y cinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>66</tag>
+        <one-of>
+          <item>sesenta y seis</item>
+          <item>son sesenta y seis</item>
+          <item>es sesenta y seis</item>
+          <item>me quedan sesenta y seis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>67</tag>
+        <one-of>
+          <item>sesenta y siete</item>
+          <item>son sesenta y siete</item>
+          <item>es sesenta y siete</item>
+          <item>me quedan sesenta y siete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>68</tag>
+        <one-of>
+          <item>sesenta y ocho</item>
+          <item>son sesenta y ocho</item>
+          <item>es sesenta y ocho</item>
+          <item>me quedan sesenta y ocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>69</tag>
+        <one-of>
+          <item>sesenta y nueve</item>
+          <item>son sesenta y nueve</item>
+          <item>es sesenta y nueve</item>
+          <item>me quedan sesenta y nueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>70</tag>
+        <one-of>
+          <item>setenta</item>
+          <item>son setenta</item>
+          <item>es setenta</item>
+          <item>me quedan setenta</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>71</tag>
+        <one-of>
+          <item>setenta y uno</item>
+          <item>son setenta y uno</item>
+          <item>es setenta y uno</item>
+          <item>me quedan setenta y uno</item>
+          <item>setenta y una</item>
+          <item>son setenta y una</item>
+          <item>es setenta y una</item>
+          <item>me quedan setenta y una</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>72</tag>
+        <one-of>
+          <item>setenta y dos</item>
+          <item>son setenta y dos</item>
+          <item>es setenta y dos</item>
+          <item>me quedan setenta y dos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>73</tag>
+        <one-of>
+          <item>setenta y tres</item>
+          <item>son setenta y tres</item>
+          <item>es setenta y tres</item>
+          <item>me quedan setenta y tres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>74</tag>
+        <one-of>
+          <item>setenta y cuatro</item>
+          <item>son setenta y cuatro</item>
+          <item>es setenta y cuatro</item>
+          <item>me quedan setenta y cuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>75</tag>
+        <one-of>
+          <item>setenta y cinco</item>
+          <item>son setenta y cinco</item>
+          <item>es setenta y cinco</item>
+          <item>me quedan setenta y cinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>76</tag>
+        <one-of>
+          <item>setenta y seis</item>
+          <item>son setenta y seis</item>
+          <item>es setenta y seis</item>
+          <item>me quedan setenta y seis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>77</tag>
+        <one-of>
+          <item>setenta y siete</item>
+          <item>son setenta y siete</item>
+          <item>es setenta y siete</item>
+          <item>me quedan setenta y siete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>78</tag>
+        <one-of>
+          <item>setenta y ocho</item>
+          <item>son setenta y ocho</item>
+          <item>es setenta y ocho</item>
+          <item>me quedan setenta y ocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>79</tag>
+        <one-of>
+          <item>setenta y nueve</item>
+          <item>son setenta y nueve</item>
+          <item>es setenta y nueve</item>
+          <item>me quedan setenta y nueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>80</tag>
+        <one-of>
+          <item>ochenta</item>
+          <item>son ochenta</item>
+          <item>es ochenta</item>
+          <item>me quedan ochenta</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>81</tag>
+        <one-of>
+          <item>ochenta y uno</item>
+          <item>son ochenta y uno</item>
+          <item>es ochenta y uno</item>
+          <item>me quedan ochenta y uno</item>
+          <item>ochenta y una</item>
+          <item>son ochenta y una</item>
+          <item>es ochenta y una</item>
+          <item>me quedan ochenta y una</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>82</tag>
+        <one-of>
+          <item>ochenta y dos</item>
+          <item>son ochenta y dos</item>
+          <item>es ochenta y dos</item>
+          <item>me quedan ochenta y dos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>83</tag>
+        <one-of>
+          <item>ochenta y tres</item>
+          <item>son ochenta y tres</item>
+          <item>es ochenta y tres</item>
+          <item>me quedan ochenta y tres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>84</tag>
+        <one-of>
+          <item>ochenta y cuatro</item>
+          <item>son ochenta y cuatro</item>
+          <item>es ochenta y cuatro</item>
+          <item>me quedan ochenta y cuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>85</tag>
+        <one-of>
+          <item>ochenta y cinco</item>
+          <item>son ochenta y cinco</item>
+          <item>es ochenta y cinco</item>
+          <item>me quedan ochenta y cinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>86</tag>
+        <one-of>
+          <item>ochenta y seis</item>
+          <item>son ochenta y seis</item>
+          <item>es ochenta y seis</item>
+          <item>me quedan ochenta y seis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>87</tag>
+        <one-of>
+          <item>ochenta y siete</item>
+          <item>son ochenta y siete</item>
+          <item>es ochenta y siete</item>
+          <item>me quedan ochenta y siete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>88</tag>
+        <one-of>
+          <item>ochenta y ocho</item>
+          <item>son ochenta y ocho</item>
+          <item>es ochenta y ocho</item>
+          <item>me quedan ochenta y ocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>89</tag>
+        <one-of>
+          <item>ochenta y nueve</item>
+          <item>son ochenta y nueve</item>
+          <item>es ochenta y nueve</item>
+          <item>me quedan ochenta y nueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>90</tag>
+        <one-of>
+          <item>noventa</item>
+          <item>son noventa</item>
+          <item>es noventa</item>
+          <item>me quedan noventa</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>91</tag>
+        <one-of>
+          <item>noventa y uno</item>
+          <item>son noventa y uno</item>
+          <item>es noventa y uno</item>
+          <item>me quedan noventa y uno</item>
+          <item>noventa y una</item>
+          <item>son noventa y una</item>
+          <item>es noventa y una</item>
+          <item>me quedan noventa y una</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>92</tag>
+        <one-of>
+          <item>noventa y dos</item>
+          <item>son noventa y dos</item>
+          <item>es noventa y dos</item>
+          <item>me quedan noventa y dos</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>93</tag>
+        <one-of>
+          <item>noventa y tres</item>
+          <item>son noventa y tres</item>
+          <item>es noventa y tres</item>
+          <item>me quedan noventa y tres</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>94</tag>
+        <one-of>
+          <item>noventa y cuatro</item>
+          <item>son noventa y cuatro</item>
+          <item>es noventa y cuatro</item>
+          <item>me quedan noventa y cuatro</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>95</tag>
+        <one-of>
+          <item>noventa y cinco</item>
+          <item>son noventa y cinco</item>
+          <item>es noventa y cinco</item>
+          <item>me quedan noventa y cinco</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>96</tag>
+        <one-of>
+          <item>noventa y seis</item>
+          <item>son noventa y seis</item>
+          <item>es noventa y seis</item>
+          <item>me quedan noventa y seis</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>97</tag>
+        <one-of>
+          <item>noventa y siete</item>
+          <item>son noventa y siete</item>
+          <item>es noventa y siete</item>
+          <item>me quedan noventa y siete</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>98</tag>
+        <one-of>
+          <item>noventa y ocho</item>
+          <item>son noventa y ocho</item>
+          <item>es noventa y ocho</item>
+          <item>me quedan noventa y ocho</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>99</tag>
+        <one-of>
+          <item>noventa y nueve</item>
+          <item>son noventa y nueve</item>
+          <item>es noventa y nueve</item>
+          <item>me quedan noventa y nueve</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>100</tag>
+        <one-of>
+          <item>cien</item>
+          <item>son cien</item>
+          <item>es cien</item>
+          <item>me quedan cien</item>
+        </one-of>
+      </item>
+    </one-of>
+   </rule>
+</grammar>

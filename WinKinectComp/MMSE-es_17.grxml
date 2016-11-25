@@ -1,0 +1,12 @@
+<grammar version="1.0" xml:lang="es" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>NI SI NI NO NI PERO</tag>
+        <one-of>
+          <item> ni sí ni no ni pero </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
